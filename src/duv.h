@@ -3,6 +3,9 @@
 
 #include "uv.h"
 #include "duktape.h"
+#include "duk_module_duktape.h"
+#include "duk_v1_compat.h"
+#include "duk_print_alert.h"
 #include <assert.h>
 
 #if !defined(_WIN32)
